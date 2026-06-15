@@ -138,6 +138,9 @@ Invalid records include:
 
 The Bronze layer is responsible for ingesting raw transaction data from the source Delta table using Structured Streaming.
 
+<img width="805" height="337" alt="image" src="https://github.com/user-attachments/assets/1b2ece28-30f3-4076-9716-7b0701eee370" />
+
+
 ### Key Features
 
 * Streaming ingestion.
@@ -163,6 +166,8 @@ ingestion_ts
 ### Purpose
 
 The Silver layer applies data quality validations and filters out invalid transactions before downstream consumption.
+
+<img width="839" height="828" alt="image" src="https://github.com/user-attachments/assets/cd441833-23da-4a78-99fb-16f61f0d5f53" />
 
 ---
 
@@ -358,6 +363,9 @@ Historical Versions:
 # Gold Layer
 
 ## Table: `txn_aggregations`
+
+<img width="1349" height="455" alt="image" src="https://github.com/user-attachments/assets/526f5ce1-4490-4c3a-8c7a-addadb4276c4" />
+
 
 ### Purpose
 
